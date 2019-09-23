@@ -53,7 +53,7 @@
                     <!--依赖自身主要是为了使用jdbc-connect和LombokPlugin-->
                     <dependency>
                         <groupId>com.kangyonggan</groupId>
-                        <artifactId>06mbg</artifactId>
+                        <artifactId>${project.artifactId}</artifactId>
                         <version>${project.version}</version>
                     </dependency>
                 </dependencies>
