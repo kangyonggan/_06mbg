@@ -18,7 +18,6 @@ public class UserMapperTest extends AbstractTest {
      */
     @Test
     public void testFindByUserId() {
-        // 需要在User类中通过@Id指定主键，不然它不知道哪个字段是主键
         System.out.println(userMapper.selectByPrimaryKey(1L));
     }
 
